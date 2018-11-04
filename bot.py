@@ -17,7 +17,7 @@ async def on_ready():
 	print(bot.user.id)
 	print('----------------------------')
 	
-@client.command(pass_context=True)
+@bot.command(pass_context=True)
 async def help():
     embed = discord.Embed(
         title = "Help",
@@ -30,7 +30,7 @@ D!hot - Shows something Hot! :fire:
 	**
         """,
         
-        color = discord.Color.dark_red()
+        color = discord.Color.green()
 )
     await client.say(embed=embed)
 	
