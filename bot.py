@@ -32,7 +32,7 @@ D!hot - Shows something Hot! :fire:
         
         color = discord.Color.green()
 )
-    await client.say(embed=embed)
+    await bot.say(embed=embed)
 	
 	
 
