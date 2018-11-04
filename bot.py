@@ -30,8 +30,10 @@ async def help():
          D!hey - Hello:3
          D!hot - Shows something Hot! :fire:
 """
-	colour = discord.Colour.green()
+	
+	
 	)
+	
 await bot.say(embed=embed)
 	
 	
