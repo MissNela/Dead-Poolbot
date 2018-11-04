@@ -4,7 +4,11 @@ import asyncio
 
 my_token = 'NTAzNDQyMTI3NjI0MjA4Mzk1.Dq26xg.j7_57wgIbB3Z8nPtyRwWS1_Kv3A'
 
+bot.remove_command = "help"
+
 bot=commands.Bot(command_prefix='D!')
+
+
 
 @bot.event
 async def on_ready():
@@ -12,6 +16,15 @@ async def on_ready():
 	print(bot.user.name)
 	print(bot.user.id)
 	print('----------------------------')
+	
+@client.command(pass_context=True)
+async def help():
+    embed = discord.Embed(
+        title = "Help",
+        description = """
+	
+
+	
 
 @bot.command()
 async def touch():
@@ -27,6 +40,6 @@ async def hey():
 @bot.command()
 async def hot():
 	await bot.say('lil pinaple')
-	await bot.say('Dont try it.. You dont have any chance. Heheh')	
+	await bot.say('Dont try it.. YOU dont have any chance. Heheh')	
 		
 bot.run(my_token)
