@@ -24,13 +24,13 @@ async def help():
         description = """
 	
 	
-D!help - Shows this message
-D!touch - says something funny
-D!oof - says opposite
-D!hey - Hello:3
-D!hot - Shows something Hot! :fire:
+         D!help - Shows this message
+         D!touch - says something funny
+         D!oof - says opposite
+         D!hey - Hello:3
+         D!hot - Shows something Hot! :fire:
 """
-	    colour = discord.Colour.green()
+	colour = discord.Colour.green()
 	)
 await bot.say(embed=embed)
 	
