@@ -19,7 +19,7 @@ async def on_ready():
 	
 @client.command(pass_context=True)
 async def help():
-    embed = discord.Embed(
+    embed = discord.Embed(colou = discord.Colour.green())
         title = "Help",
         description = """
 	
@@ -32,7 +32,7 @@ async def help():
 """
 	
 	
-	)
+	
 	
 await client.say(embed=embed)
 	
