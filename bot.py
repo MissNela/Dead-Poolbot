@@ -34,7 +34,7 @@ async def help():
 	
 	)
 	
-await bot.say(embed=embed)
+await client.say(embed=embed)
 	
 	
 
