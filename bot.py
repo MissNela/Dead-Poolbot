@@ -30,8 +30,8 @@ D!oof - says opposite
 D!hey - Hello:3
 D!hot - Shows something Hot! :fire:
 """
-	    color = discord.Color.green()
-	    )
+	    colour = discord.Colour.green()
+	)
 await bot.say(embed=embed)
 	
 	
