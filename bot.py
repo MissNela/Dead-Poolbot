@@ -4,7 +4,7 @@ import asyncio
 
 my_token = 'NTAzNDQyMTI3NjI0MjA4Mzk1.Dq26xg.j7_57wgIbB3Z8nPtyRwWS1_Kv3A'
 
-bot.remove_command = "help"
+client.remove_command = "help"
 
 bot=commands.Bot(command_prefix='D!')
 
