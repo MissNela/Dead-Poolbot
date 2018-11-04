@@ -19,22 +19,20 @@ async def on_ready():
 	
 @client.command(pass_context=True)
 async def help():
-    embed = discord.Embed(colou = discord.Colour.green())
+    embed = discord.Embed(
         title = "Help",
         description = """
-	
-	
-         D!help - Shows this message
-         D!touch - says something funny
-         D!oof - says opposite
-         D!hey - Hello:3
-         D!hot - Shows something Hot! :fire:
-"""
-	
-	
-	
-	
-await client.say(embed=embed)
+        **
+	D!touch - Touches something
+D!oof - Opposite
+D!hey - Says something
+D!hot - Shows something Hot! :fire:
+	**
+        """,
+        
+        color = discord.Color.dark_red()
+)
+    await client.say(embed=embed)
 	
 	
 
